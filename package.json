@@ -1,0 +1,25 @@
+{
+  "name": "catnft-ethereum",
+  "version": "1.0.0",
+  "description": "Ethereum-based NFT minting contract for a cat picture",
+  "main": "truffle-config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate",
+    "start": "lite-server"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.2",
+    "dotenv": "^10.0.0",
+    "web3": "^1.3.5",
+    "truffle": "^5.4.11",
+    "lite-server": "^2.6.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
